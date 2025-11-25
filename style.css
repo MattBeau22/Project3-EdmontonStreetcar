@@ -1,0 +1,32 @@
+.white-text{
+	color: white;
+}
+
+.nav-link{
+	text-decoration: none;
+}
+
+button{
+	width: 209px;
+	height: 40px;
+}
+
+header{
+	width: 90%;
+	background: #2C2F33; 
+	border-radius: 65px; 
+	position: relative;
+	top: 50px;
+	right: 33px;
+	padding: 0px 42px;
+
+}
+
+.hero-img {
+
+	background-image: url(images/Bridge.png);
+	background-size: cover;
+	background-position: center;
+	height: 943px;
+	position: relative;
+}
