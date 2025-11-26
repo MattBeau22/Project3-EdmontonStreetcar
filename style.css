@@ -1,5 +1,18 @@
+body{
+	background-color: #37485B;
+	/*font-family: "Space Grotesk", sans-serif;*/
+}
+
+footer{
+	background-color: #2C2F33;
+}
+
 .white-text{
 	color: white;
+}
+
+.gold-text{
+	color: #DBA039 ;
 }
 
 .nav-link{
@@ -15,10 +28,11 @@ header{
 	width: 90%;
 	background: #2C2F33; 
 	border-radius: 65px; 
-	position: relative;
+	position: absolute;
 	top: 50px;
 	right: 33px;
 	padding: 0px 42px;
+	z-index: 10;
 
 }
 
@@ -28,5 +42,25 @@ header{
 	background-size: cover;
 	background-position: center;
 	height: 943px;
-	position: relative;
+
 }
+
+.img-wrapper{
+	width: 100%;
+	height: 617px;
+
+/*	aspect-ratio: 4 / 5;
+	overflow: hidden;
+	border-radius: 300px 300px 0 0;
+	margin-bottom: 24px;*/
+}
+
+.img-calendar{
+	width: 100%;
+	object-fit: contain;
+
+}
+
+
+/*TEXT*/
+
