@@ -3,78 +3,183 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Edmonton Streetcars Home</title>
+	<title>Edmonton Streetcars - Home</title>
 
 		<!-- STYLES -->
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="layout.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+		<!-- FONTS -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bungee&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Bungee&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+	
+
 </head>
 <body>
 
 	<header> 
 		<div class="nav-wrap">
 			<!-- LOGO -->
-			<div>
-				<a href="index.html"> <img src="images/logo.png" style="width: 120px;"></a>
+			<div class="nav-logo-wrap">
+				<a href="index.html"> <img src="images/logo.png" class="nav-logo"></a>
 			</div>
 
 			<!-- NAVIGATION -->
 			<div>
 				<nav >
-					<ul class="menu">
-						<li><a href="index.html" class="white-text nav-link">About</a></li>
-						<li><a href="#" class="white-text nav-link">Plan Your Visit</a></li>
-						<li><a href="#" class="white-text nav-link">Members Area</a></li>
-						<li> <a href="#" class="white-text nav-link">Get Involved</a></li>
+					<ul class="menu nav-link">
+						<li><a href="index.html" class="white-text nav-link">ABOUT</a></li>
+						<li><a href="#" class="white-text nav-link">PLAN YOUR VISIT</a></li>
+						<li><a href="#" class="white-text nav-link">MEMBERS AREA</a></li>
+						<li> <a href="#" class="white-text nav-link">GET INVOLVED</a></li>
 					</ul>
 				</nav>
 			</div>
 
-			<button>Donate</button>
+			<div class="cta-wrap-nav">
+				<a href="#" class="button">DONATE</a>
+			</div>
 
-		</div>
-
-	</header>
-	<section class="hero-img" >
-
-
-		
-	</section>
-
-
-	<section class="section-padding">
-
-		<div class="container">
-			<div class="row"> 
-				<div class="col col-lg-3">
-					<h2 class="gold-text">CALENDAR OF EVENTS</h2>
-				</div>
-				<div class="col col-lg-9">
-					<div class="img-wrapper">
-						<img class="img-calendar" src="images/calendar.png">
-					</div>
-				</div>
+			<div class="hamburger">
+				<div class="line"></div>
+				<div class="line"></div>
+				<div class="line"></div>
 			</div>
 		</div>
 
+	</header>
 
-	</section>
+	<main>
 
-	<section>
-	</section>
+		<section class="hero-img" >
+
+			<div class="container">	
+
+				<div class="row">	<!-- ROW START -->
+					<div class="col col-lg-12 col-sm-12">	<!-- COL START -->
+						<h1 class="bungee-font gold-text">EDMONTON <br/> STREETCARS</h1>
+					</div> <!-- COL END -->
+				</div> <!-- ROW END -->
+
+
+				<div class="row">	<!-- ROW START -->
+					<div class="col col-lg-7 col-sm-12">	<!-- COL START -->
+						<div class="hero-text-box ">
+							<p class="hero-paragraph-start white-text">We are the Edmonton Radial Railway Society</p>
+							<p class="hero-paragraph white-text">	The Edmonton Radial Railway Society is a 100% volunteer-run organization. We take immense pride in operating the historic streetcars that transport visitors at Fort Edmonton Park and across the High Level Bridge located in Edmonton, Alberta, Canada.
+								In total, we have over twenty-five streetcars, with eight in seasonal service, two undergoing restoration and fifteen others in storage or awaiting restoration. <br> Fun Fact - The Edmonton Radial Railway Society has the largest fleet of heritage streetcars in Western Canada! </p>
+						</div>
+					</div> <!-- COL END -->
+				</div> <!-- ROW END -->
+
+					<div class="row">	<!-- ROW START -->
+						<div class="col col-lg-6 col-sm-12 align-text-center">	<!-- COL START -->
+							<div class="cta-wrap inline-block">
+								<a href="#" class="button reduce-button-padding"> HIGH LEVEL BRIDGE</a>
+							</div>
+
+							<div class="cta-wrap inline-block">
+								<a href="#" class="button reduce-button-padding"> FORT EDMONTON PARK</a>
+							</div>
+
+							<div class="cta-wrap inline-block">
+								<a href="#" class="button reduce-button-padding"> BOOK A CHARTER</a>
+							</div>
+						</div> <!-- COL END -->
+					</div> <!-- ROW END -->
+
+
+
+
+
+				</div>
+
+
+
+
+
+
+
+			</section>
+
+
+			<section class="section-padding">
+
+				<div class="container ">
+					<div class="row flex-direction-switch"> 
+						<div class="col col-lg-3">
+							<h2 class="gold-text bungee-font">CALENDAR OF EVENTS</h2>
+						</div>
+						<div class="col col-lg-9 col-sm-12">
+							<div class="img-wrapper-calendar">
+								<img class="img-calendar" src="images/calendar.png">
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+			</section>
+
+			<section>
+			</section>
+		
+
+	</main>
+
+
 </body>
 <footer>
-	<div>
-		<img src="images/logo.png" style="width: 120px;">	
+
+	<div class="container">
+
+		<div class="row row-align-center ">	<!-- ROW START -->
+
+			<div class="col col-lg-9">	<!-- COL START -->
+
+				<div class="nav-logo-wrap">
+					<img src="images/logo.png" class="nav-logo">	
+				</div>
+				<p class="white-text footer-paragraph">Edmonton Radial Railway Society <br> P.O. Box 76057 Southgate <br> P.O. Edmonton, Alberta T6H 5Y7</p>
+			</div> <!-- COL END -->
+
+			<div class="col col-lg-3  col-sm-12 align-text-center">	<!-- COL START -->
+				<div class="cta-wrap">
+					<p class="white-text no-top-bottom-margin">Already a member?</p>
+					<a href="#" class="button">LOGIN</a>
+				</div>
+			</div> <!-- COL END -->
+
+		</div> <!-- ROW END -->
+
+		<div class="row">	<!-- ROW START -->
+			<div class="col col-lg-12">	<!-- COL START -->
+				<p class="white-text footer-paragraph">The Edmonton Radial Railway Society operates on Treaty 6 territory, a traditional meeting grounds, gathering place, and travelling route to the Cree, Saulteaux, Blackfoot, Metis, Dene, and Nakota Sioux. We acknowledge all the many First Nations, Metis, and Inuit whose footsteps have marked these lands for centuries.</p>
+			</div> <!-- COL END -->
+		</div> <!-- ROW END -->
+
+
 	</div>
-	<p class="white-text">Edmonton Radial Railway Society P.O. Box 76057 Southgate P.O. Edmonton, Alberta T6H 5Y7</p>
-	<p>The Edmonton Radial Railway Society operates on Treaty 6 territory, a traditional meeting grounds, gathering place, and travelling route to the Cree, Saulteaux, Blackfoot, Metis, Dene, and Nakota Sioux. We acknowledge all the many First Nations, Metis, and Inuit whose footsteps have marked these lands for centuries.</p>
+
 
 
 </footer>
 
 
-<!-- Why can't container be applied to section? -->
-<!-- Why is boxborder applied to col but nothing else? Shouldn't it be applied globally? -->
-<!-- How should i go about making my image larger? -->
+
+
+
+<!-- html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+} -->
+
